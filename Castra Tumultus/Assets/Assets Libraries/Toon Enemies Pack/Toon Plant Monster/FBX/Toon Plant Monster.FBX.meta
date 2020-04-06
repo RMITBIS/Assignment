@@ -1,92 +1,254 @@
 fileFormatVersion: 2
 guid: 3c3db0d1e320d9b4688c9621f279f864
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Rig
-    100004: RigHead
-    100006: RigLBackLeg1
-    100008: RigLBackLeg2
-    100010: RigLBackLegAnkle
-    100012: RigLBackLegPlatform
-    100014: RigLeafBack
-    100016: RigLeafBackGizmo
-    100018: RigLeafFrontGizmo
-    100020: RigLeafLeft
-    100022: RigLeafLeftGizmo
-    100024: RigLeafRight
-    100026: RigLeafRightGizmo
-    100028: RigLeftFront
-    100030: RigLFrontLeg1
-    100032: RigLFrontLeg2
-    100034: RigLFrontLegAnkle
-    100036: RigLFrontLegPlatform
-    100038: RigMouthLeft
-    100040: RigMouthLeftGizmo
-    100042: RigMouthRight
-    100044: RigMouthRightGizmo
-    100046: RigNeck1
-    100048: RigNeck2
-    100050: RigPelvis
-    100052: RigPelvisGizmo
-    100054: RigRBackLeg1
-    100056: RigRBackLeg2
-    100058: RigRBackLegAnkle
-    100060: RigRBackLegPlatform
-    100062: RigRFrontLeg1
-    100064: RigRFrontLeg2
-    100066: RigRFrontLegAnkle
-    100068: RigRFrontLegPlatform
-    100070: Toon Plant Monster
-    100072: RigHeadGizmo
-    400000: //RootNode
-    400002: Rig
-    400004: RigHead
-    400006: RigLBackLeg1
-    400008: RigLBackLeg2
-    400010: RigLBackLegAnkle
-    400012: RigLBackLegPlatform
-    400014: RigLeafBack
-    400016: RigLeafBackGizmo
-    400018: RigLeafFrontGizmo
-    400020: RigLeafLeft
-    400022: RigLeafLeftGizmo
-    400024: RigLeafRight
-    400026: RigLeafRightGizmo
-    400028: RigLeftFront
-    400030: RigLFrontLeg1
-    400032: RigLFrontLeg2
-    400034: RigLFrontLegAnkle
-    400036: RigLFrontLegPlatform
-    400038: RigMouthLeft
-    400040: RigMouthLeftGizmo
-    400042: RigMouthRight
-    400044: RigMouthRightGizmo
-    400046: RigNeck1
-    400048: RigNeck2
-    400050: RigPelvis
-    400052: RigPelvisGizmo
-    400054: RigRBackLeg1
-    400056: RigRBackLeg2
-    400058: RigRBackLegAnkle
-    400060: RigRBackLegPlatform
-    400062: RigRFrontLeg1
-    400064: RigRFrontLeg2
-    400066: RigRFrontLegAnkle
-    400068: RigRFrontLegPlatform
-    400070: Toon Plant Monster
-    400072: RigHeadGizmo
-    2300000: //RootNode
-    2300002: Toon Plant Monster
-    3300000: //RootNode
-    3300002: Toon Plant Monster
-    4300000: Toon Plant Monster
-    9500000: //RootNode
-    13700000: Toon Plant Monster
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Rig
+  - first:
+      1: 100004
+    second: RigHead
+  - first:
+      1: 100006
+    second: RigLBackLeg1
+  - first:
+      1: 100008
+    second: RigLBackLeg2
+  - first:
+      1: 100010
+    second: RigLBackLegAnkle
+  - first:
+      1: 100012
+    second: RigLBackLegPlatform
+  - first:
+      1: 100014
+    second: RigLeafBack
+  - first:
+      1: 100016
+    second: RigLeafBackGizmo
+  - first:
+      1: 100018
+    second: RigLeafFrontGizmo
+  - first:
+      1: 100020
+    second: RigLeafLeft
+  - first:
+      1: 100022
+    second: RigLeafLeftGizmo
+  - first:
+      1: 100024
+    second: RigLeafRight
+  - first:
+      1: 100026
+    second: RigLeafRightGizmo
+  - first:
+      1: 100028
+    second: RigLeftFront
+  - first:
+      1: 100030
+    second: RigLFrontLeg1
+  - first:
+      1: 100032
+    second: RigLFrontLeg2
+  - first:
+      1: 100034
+    second: RigLFrontLegAnkle
+  - first:
+      1: 100036
+    second: RigLFrontLegPlatform
+  - first:
+      1: 100038
+    second: RigMouthLeft
+  - first:
+      1: 100040
+    second: RigMouthLeftGizmo
+  - first:
+      1: 100042
+    second: RigMouthRight
+  - first:
+      1: 100044
+    second: RigMouthRightGizmo
+  - first:
+      1: 100046
+    second: RigNeck1
+  - first:
+      1: 100048
+    second: RigNeck2
+  - first:
+      1: 100050
+    second: RigPelvis
+  - first:
+      1: 100052
+    second: RigPelvisGizmo
+  - first:
+      1: 100054
+    second: RigRBackLeg1
+  - first:
+      1: 100056
+    second: RigRBackLeg2
+  - first:
+      1: 100058
+    second: RigRBackLegAnkle
+  - first:
+      1: 100060
+    second: RigRBackLegPlatform
+  - first:
+      1: 100062
+    second: RigRFrontLeg1
+  - first:
+      1: 100064
+    second: RigRFrontLeg2
+  - first:
+      1: 100066
+    second: RigRFrontLegAnkle
+  - first:
+      1: 100068
+    second: RigRFrontLegPlatform
+  - first:
+      1: 100070
+    second: Toon Plant Monster
+  - first:
+      1: 100072
+    second: RigHeadGizmo
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Rig
+  - first:
+      4: 400004
+    second: RigHead
+  - first:
+      4: 400006
+    second: RigLBackLeg1
+  - first:
+      4: 400008
+    second: RigLBackLeg2
+  - first:
+      4: 400010
+    second: RigLBackLegAnkle
+  - first:
+      4: 400012
+    second: RigLBackLegPlatform
+  - first:
+      4: 400014
+    second: RigLeafBack
+  - first:
+      4: 400016
+    second: RigLeafBackGizmo
+  - first:
+      4: 400018
+    second: RigLeafFrontGizmo
+  - first:
+      4: 400020
+    second: RigLeafLeft
+  - first:
+      4: 400022
+    second: RigLeafLeftGizmo
+  - first:
+      4: 400024
+    second: RigLeafRight
+  - first:
+      4: 400026
+    second: RigLeafRightGizmo
+  - first:
+      4: 400028
+    second: RigLeftFront
+  - first:
+      4: 400030
+    second: RigLFrontLeg1
+  - first:
+      4: 400032
+    second: RigLFrontLeg2
+  - first:
+      4: 400034
+    second: RigLFrontLegAnkle
+  - first:
+      4: 400036
+    second: RigLFrontLegPlatform
+  - first:
+      4: 400038
+    second: RigMouthLeft
+  - first:
+      4: 400040
+    second: RigMouthLeftGizmo
+  - first:
+      4: 400042
+    second: RigMouthRight
+  - first:
+      4: 400044
+    second: RigMouthRightGizmo
+  - first:
+      4: 400046
+    second: RigNeck1
+  - first:
+      4: 400048
+    second: RigNeck2
+  - first:
+      4: 400050
+    second: RigPelvis
+  - first:
+      4: 400052
+    second: RigPelvisGizmo
+  - first:
+      4: 400054
+    second: RigRBackLeg1
+  - first:
+      4: 400056
+    second: RigRBackLeg2
+  - first:
+      4: 400058
+    second: RigRBackLegAnkle
+  - first:
+      4: 400060
+    second: RigRBackLegPlatform
+  - first:
+      4: 400062
+    second: RigRFrontLeg1
+  - first:
+      4: 400064
+    second: RigRFrontLeg2
+  - first:
+      4: 400066
+    second: RigRFrontLegAnkle
+  - first:
+      4: 400068
+    second: RigRFrontLegPlatform
+  - first:
+      4: 400070
+    second: Toon Plant Monster
+  - first:
+      4: 400072
+    second: RigHeadGizmo
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: Toon Plant Monster
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: Toon Plant Monster
+  - first:
+      43: 4300000
+    second: Toon Plant Monster
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Toon Plant Monster
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -118,6 +280,8 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -125,10 +289,13 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -140,10 +307,28 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 3cf7cd054e5aa794f91183785e78e2f7
+  - 3e52bccda60938542a84ecbb184af9cb
+  - 1eadeee7a16e78f4eab1078fd9abefc9
+  - 89c1b875195f3e74ba97412adf85e737
+  - 28a4ecf2896345044a9babcb1286e27d
+  - d7a66d7725f4446468dcd6da2eff72df
+  - 3ad854b3d13c2b54f854951cc5f2879e
+  - 98c39d39e5e350e4292c5aa302349b34
+  - ab7e8be00e108b141ae1f2a20fdd6f4b
+  - 120874a60a8351c40ac143a4feec475b
+  - bd11ab406eebe3044b088db9ad590287
+  - 35280398888b78d418de0e2dfb946398
+  - 020a2b25deedaed47a2880bb05d87b80
+  - 95c05050eb14f5a4898cba668b0878d6
+  - 5f18f96dd1c5c4646b07fcf39fa51632
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -153,14 +338,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -1,101 +1,281 @@
 fileFormatVersion: 2
 guid: 51021e8625b46d34fbad75dadaf2f31c
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Dummy-LHandWeapon
-    100002: Dummy-RHandWeapon
-    100004: Rig
-    100006: RigHead
-    100008: RigHeadGizmo
-    100010: RigLArm1
-    100012: RigLArm1Gizmo
-    100014: RigLArm2
-    100016: RigLArm2Gizmo
-    100018: RigLArmPalm
-    100020: RigLArmPalmGizmo
-    100022: RigLLeg1
-    100024: RigLLeg2
-    100026: RigLLegAnkle
-    100028: RigLLegFoot1
-    100030: RigLLegPlatform
-    100032: RigNeck1
-    100034: RigNeck2
-    100036: RigPelvis
-    100038: RigPelvisGizmo
-    100040: RigRArm1
-    100042: RigRArm1Gizmo
-    100044: RigRArm2
-    100046: RigRArm2Gizmo
-    100048: RigRArmPalm
-    100050: RigRArmPalmGizmo
-    100052: RigRibcage
-    100054: RigRibcageGizmo
-    100056: RigRLeg1
-    100058: RigRLeg2
-    100060: RigRLegAnkle
-    100062: RigRLegFoot1
-    100064: RigRLegPlatform
-    100066: RigSpine1
-    100068: RigSpine2
-    100070: Shield
-    100072: Sword
-    100074: Toon Skeleton Knight
-    100076: //RootNode
-    100078: RigNeck
-    400000: Dummy-LHandWeapon
-    400002: Dummy-RHandWeapon
-    400004: Rig
-    400006: RigHead
-    400008: RigHeadGizmo
-    400010: RigLArm1
-    400012: RigLArm1Gizmo
-    400014: RigLArm2
-    400016: RigLArm2Gizmo
-    400018: RigLArmPalm
-    400020: RigLArmPalmGizmo
-    400022: RigLLeg1
-    400024: RigLLeg2
-    400026: RigLLegAnkle
-    400028: RigLLegFoot1
-    400030: RigLLegPlatform
-    400032: RigNeck1
-    400034: RigNeck2
-    400036: RigPelvis
-    400038: RigPelvisGizmo
-    400040: RigRArm1
-    400042: RigRArm1Gizmo
-    400044: RigRArm2
-    400046: RigRArm2Gizmo
-    400048: RigRArmPalm
-    400050: RigRArmPalmGizmo
-    400052: RigRibcage
-    400054: RigRibcageGizmo
-    400056: RigRLeg1
-    400058: RigRLeg2
-    400060: RigRLegAnkle
-    400062: RigRLegFoot1
-    400064: RigRLegPlatform
-    400066: RigSpine1
-    400068: RigSpine2
-    400070: Shield
-    400072: Sword
-    400074: Toon Skeleton Knight
-    400076: //RootNode
-    400078: RigNeck
-    2300000: Shield
-    2300002: Sword
-    3300000: Shield
-    3300002: Sword
-    4300000: Shield
-    4300002: Sword
-    4300004: Toon Skeleton Knight
-    9500000: //RootNode
-    13700000: Toon Skeleton Knight
-    2186277476908879412: ImportLogs
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Dummy-LHandWeapon
+  - first:
+      1: 100002
+    second: Dummy-RHandWeapon
+  - first:
+      1: 100004
+    second: Rig
+  - first:
+      1: 100006
+    second: RigHead
+  - first:
+      1: 100008
+    second: RigHeadGizmo
+  - first:
+      1: 100010
+    second: RigLArm1
+  - first:
+      1: 100012
+    second: RigLArm1Gizmo
+  - first:
+      1: 100014
+    second: RigLArm2
+  - first:
+      1: 100016
+    second: RigLArm2Gizmo
+  - first:
+      1: 100018
+    second: RigLArmPalm
+  - first:
+      1: 100020
+    second: RigLArmPalmGizmo
+  - first:
+      1: 100022
+    second: RigLLeg1
+  - first:
+      1: 100024
+    second: RigLLeg2
+  - first:
+      1: 100026
+    second: RigLLegAnkle
+  - first:
+      1: 100028
+    second: RigLLegFoot1
+  - first:
+      1: 100030
+    second: RigLLegPlatform
+  - first:
+      1: 100032
+    second: RigNeck1
+  - first:
+      1: 100034
+    second: RigNeck2
+  - first:
+      1: 100036
+    second: RigPelvis
+  - first:
+      1: 100038
+    second: RigPelvisGizmo
+  - first:
+      1: 100040
+    second: RigRArm1
+  - first:
+      1: 100042
+    second: RigRArm1Gizmo
+  - first:
+      1: 100044
+    second: RigRArm2
+  - first:
+      1: 100046
+    second: RigRArm2Gizmo
+  - first:
+      1: 100048
+    second: RigRArmPalm
+  - first:
+      1: 100050
+    second: RigRArmPalmGizmo
+  - first:
+      1: 100052
+    second: RigRibcage
+  - first:
+      1: 100054
+    second: RigRibcageGizmo
+  - first:
+      1: 100056
+    second: RigRLeg1
+  - first:
+      1: 100058
+    second: RigRLeg2
+  - first:
+      1: 100060
+    second: RigRLegAnkle
+  - first:
+      1: 100062
+    second: RigRLegFoot1
+  - first:
+      1: 100064
+    second: RigRLegPlatform
+  - first:
+      1: 100066
+    second: RigSpine1
+  - first:
+      1: 100068
+    second: RigSpine2
+  - first:
+      1: 100070
+    second: Shield
+  - first:
+      1: 100072
+    second: Sword
+  - first:
+      1: 100074
+    second: Toon Skeleton Knight
+  - first:
+      1: 100076
+    second: //RootNode
+  - first:
+      1: 100078
+    second: RigNeck
+  - first:
+      4: 400000
+    second: Dummy-LHandWeapon
+  - first:
+      4: 400002
+    second: Dummy-RHandWeapon
+  - first:
+      4: 400004
+    second: Rig
+  - first:
+      4: 400006
+    second: RigHead
+  - first:
+      4: 400008
+    second: RigHeadGizmo
+  - first:
+      4: 400010
+    second: RigLArm1
+  - first:
+      4: 400012
+    second: RigLArm1Gizmo
+  - first:
+      4: 400014
+    second: RigLArm2
+  - first:
+      4: 400016
+    second: RigLArm2Gizmo
+  - first:
+      4: 400018
+    second: RigLArmPalm
+  - first:
+      4: 400020
+    second: RigLArmPalmGizmo
+  - first:
+      4: 400022
+    second: RigLLeg1
+  - first:
+      4: 400024
+    second: RigLLeg2
+  - first:
+      4: 400026
+    second: RigLLegAnkle
+  - first:
+      4: 400028
+    second: RigLLegFoot1
+  - first:
+      4: 400030
+    second: RigLLegPlatform
+  - first:
+      4: 400032
+    second: RigNeck1
+  - first:
+      4: 400034
+    second: RigNeck2
+  - first:
+      4: 400036
+    second: RigPelvis
+  - first:
+      4: 400038
+    second: RigPelvisGizmo
+  - first:
+      4: 400040
+    second: RigRArm1
+  - first:
+      4: 400042
+    second: RigRArm1Gizmo
+  - first:
+      4: 400044
+    second: RigRArm2
+  - first:
+      4: 400046
+    second: RigRArm2Gizmo
+  - first:
+      4: 400048
+    second: RigRArmPalm
+  - first:
+      4: 400050
+    second: RigRArmPalmGizmo
+  - first:
+      4: 400052
+    second: RigRibcage
+  - first:
+      4: 400054
+    second: RigRibcageGizmo
+  - first:
+      4: 400056
+    second: RigRLeg1
+  - first:
+      4: 400058
+    second: RigRLeg2
+  - first:
+      4: 400060
+    second: RigRLegAnkle
+  - first:
+      4: 400062
+    second: RigRLegFoot1
+  - first:
+      4: 400064
+    second: RigRLegPlatform
+  - first:
+      4: 400066
+    second: RigSpine1
+  - first:
+      4: 400068
+    second: RigSpine2
+  - first:
+      4: 400070
+    second: Shield
+  - first:
+      4: 400072
+    second: Sword
+  - first:
+      4: 400074
+    second: Toon Skeleton Knight
+  - first:
+      4: 400076
+    second: //RootNode
+  - first:
+      4: 400078
+    second: RigNeck
+  - first:
+      23: 2300000
+    second: Shield
+  - first:
+      23: 2300002
+    second: Sword
+  - first:
+      33: 3300000
+    second: Shield
+  - first:
+      33: 3300002
+    second: Sword
+  - first:
+      43: 4300000
+    second: Shield
+  - first:
+      43: 4300002
+    second: Sword
+  - first:
+      43: 4300004
+    second: Toon Skeleton Knight
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Toon Skeleton Knight
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -127,6 +307,8 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -134,10 +316,13 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -149,10 +334,36 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 6ed67e5060eba274da081ecc105e51d8
+  - 7fd224f680f5d484fb0017b67b8b9684
+  - e84356376efbf8442b94702cc295de2c
+  - 2e64cb7cbcccbd84ba035c356254acc5
+  - 6ddd49defe8962e498b3b77866115aac
+  - 90b1bba091cbcc5448586c74afcbc8b1
+  - c7d07e3d38f2ce64d95b410063301fcd
+  - 391c9a831fc4958419da82ab7291c9c2
+  - 5b6035b9e74c0cc4a9773993ebe04dae
+  - d3d5d970505dc5a4080bab8e6dec398e
+  - 5fd3d609ec0c92849b8d9853aaab8c11
+  - 482c4c6adc0cb2d448a70ce9e579b082
+  - a3be5038b90e9eb44806aa1e6933e7e2
+  - 0a01d519a5780c64eaedb034785a81de
+  - b08d1072fb4dc2c46b07e7439687d485
+  - 2583abc365c701c459a279c6732c2f89
+  - 36e1b53cf0a92bc4e856dfdd83c255fe
+  - 4573b9306d25d5e4a9ace064d0d36257
+  - be3b401addc5bbb49962416a6d0079f7
+  - baa012558f1fdcc4cb6948975d85661d
+  - 70f80fde8a1428a47906d0b26353da16
+  - 709e7e1062d929c47b6133d9ff664ac7
+  - e7ebfdc83da676646959f45303b87438
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: RigPelvis
       humanName: Hips
@@ -489,14 +700,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
