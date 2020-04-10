@@ -1,93 +1,257 @@
 fileFormatVersion: 2
 guid: b063b639722aa9141894cf15d70a0a11
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Base
-    100002: //RootNode
-    100004: Dummy Prop Back
-    100006: Dummy Prop Head
-    100008: Dummy Prop Left
-    100010: Dummy Prop Right
-    100012: Rig
-    100014: RigHead
-    100016: RigHeadGizmo
-    100018: RigLArm1
-    100020: RigLArm1Gizmo
-    100022: RigLArm2
-    100024: RigLArm2Gizmo
-    100026: RigLArmPalm
-    100028: RigLArmPalmGizmo
-    100030: RigLLeg1
-    100032: RigLLeg2
-    100034: RigLLegAnkle
-    100036: RigLLegPlatform
-    100038: RigNeck
-    100040: RigPelvis
-    100042: RigPelvisGizmo
-    100044: RigRArm1
-    100046: RigRArm1Gizmo
-    100048: RigRArm2
-    100050: RigRArm2Gizmo
-    100052: RigRArmPalm
-    100054: RigRArmPalmGizmo
-    100056: RigRibcage
-    100058: RigRibcageGizmo
-    100060: RigRLeg1
-    100062: RigRLeg2
-    100064: RigRLegAnkle
-    100066: RigRLegPlatform
-    100068: RigSpine1
-    100070: RigSpine2
-    100072: TH Sword Placeholder
-    400000: Base
-    400002: //RootNode
-    400004: Dummy Prop Back
-    400006: Dummy Prop Head
-    400008: Dummy Prop Left
-    400010: Dummy Prop Right
-    400012: Rig
-    400014: RigHead
-    400016: RigHeadGizmo
-    400018: RigLArm1
-    400020: RigLArm1Gizmo
-    400022: RigLArm2
-    400024: RigLArm2Gizmo
-    400026: RigLArmPalm
-    400028: RigLArmPalmGizmo
-    400030: RigLLeg1
-    400032: RigLLeg2
-    400034: RigLLegAnkle
-    400036: RigLLegPlatform
-    400038: RigNeck
-    400040: RigPelvis
-    400042: RigPelvisGizmo
-    400044: RigRArm1
-    400046: RigRArm1Gizmo
-    400048: RigRArm2
-    400050: RigRArm2Gizmo
-    400052: RigRArmPalm
-    400054: RigRArmPalmGizmo
-    400056: RigRibcage
-    400058: RigRibcageGizmo
-    400060: RigRLeg1
-    400062: RigRLeg2
-    400064: RigRLegAnkle
-    400066: RigRLegPlatform
-    400068: RigSpine1
-    400070: RigSpine2
-    400072: TH Sword Placeholder
-    2300000: TH Sword Placeholder
-    3300000: TH Sword Placeholder
-    4300000: Base
-    4300002: TH Sword Placeholder
-    7400000: TH Sword Walk With Root Motion
-    9500000: //RootNode
-    13700000: Base
-    2186277476908879412: ImportLogs
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Base
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: Dummy Prop Back
+  - first:
+      1: 100006
+    second: Dummy Prop Head
+  - first:
+      1: 100008
+    second: Dummy Prop Left
+  - first:
+      1: 100010
+    second: Dummy Prop Right
+  - first:
+      1: 100012
+    second: Rig
+  - first:
+      1: 100014
+    second: RigHead
+  - first:
+      1: 100016
+    second: RigHeadGizmo
+  - first:
+      1: 100018
+    second: RigLArm1
+  - first:
+      1: 100020
+    second: RigLArm1Gizmo
+  - first:
+      1: 100022
+    second: RigLArm2
+  - first:
+      1: 100024
+    second: RigLArm2Gizmo
+  - first:
+      1: 100026
+    second: RigLArmPalm
+  - first:
+      1: 100028
+    second: RigLArmPalmGizmo
+  - first:
+      1: 100030
+    second: RigLLeg1
+  - first:
+      1: 100032
+    second: RigLLeg2
+  - first:
+      1: 100034
+    second: RigLLegAnkle
+  - first:
+      1: 100036
+    second: RigLLegPlatform
+  - first:
+      1: 100038
+    second: RigNeck
+  - first:
+      1: 100040
+    second: RigPelvis
+  - first:
+      1: 100042
+    second: RigPelvisGizmo
+  - first:
+      1: 100044
+    second: RigRArm1
+  - first:
+      1: 100046
+    second: RigRArm1Gizmo
+  - first:
+      1: 100048
+    second: RigRArm2
+  - first:
+      1: 100050
+    second: RigRArm2Gizmo
+  - first:
+      1: 100052
+    second: RigRArmPalm
+  - first:
+      1: 100054
+    second: RigRArmPalmGizmo
+  - first:
+      1: 100056
+    second: RigRibcage
+  - first:
+      1: 100058
+    second: RigRibcageGizmo
+  - first:
+      1: 100060
+    second: RigRLeg1
+  - first:
+      1: 100062
+    second: RigRLeg2
+  - first:
+      1: 100064
+    second: RigRLegAnkle
+  - first:
+      1: 100066
+    second: RigRLegPlatform
+  - first:
+      1: 100068
+    second: RigSpine1
+  - first:
+      1: 100070
+    second: RigSpine2
+  - first:
+      1: 100072
+    second: TH Sword Placeholder
+  - first:
+      4: 400000
+    second: Base
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Dummy Prop Back
+  - first:
+      4: 400006
+    second: Dummy Prop Head
+  - first:
+      4: 400008
+    second: Dummy Prop Left
+  - first:
+      4: 400010
+    second: Dummy Prop Right
+  - first:
+      4: 400012
+    second: Rig
+  - first:
+      4: 400014
+    second: RigHead
+  - first:
+      4: 400016
+    second: RigHeadGizmo
+  - first:
+      4: 400018
+    second: RigLArm1
+  - first:
+      4: 400020
+    second: RigLArm1Gizmo
+  - first:
+      4: 400022
+    second: RigLArm2
+  - first:
+      4: 400024
+    second: RigLArm2Gizmo
+  - first:
+      4: 400026
+    second: RigLArmPalm
+  - first:
+      4: 400028
+    second: RigLArmPalmGizmo
+  - first:
+      4: 400030
+    second: RigLLeg1
+  - first:
+      4: 400032
+    second: RigLLeg2
+  - first:
+      4: 400034
+    second: RigLLegAnkle
+  - first:
+      4: 400036
+    second: RigLLegPlatform
+  - first:
+      4: 400038
+    second: RigNeck
+  - first:
+      4: 400040
+    second: RigPelvis
+  - first:
+      4: 400042
+    second: RigPelvisGizmo
+  - first:
+      4: 400044
+    second: RigRArm1
+  - first:
+      4: 400046
+    second: RigRArm1Gizmo
+  - first:
+      4: 400048
+    second: RigRArm2
+  - first:
+      4: 400050
+    second: RigRArm2Gizmo
+  - first:
+      4: 400052
+    second: RigRArmPalm
+  - first:
+      4: 400054
+    second: RigRArmPalmGizmo
+  - first:
+      4: 400056
+    second: RigRibcage
+  - first:
+      4: 400058
+    second: RigRibcageGizmo
+  - first:
+      4: 400060
+    second: RigRLeg1
+  - first:
+      4: 400062
+    second: RigRLeg2
+  - first:
+      4: 400064
+    second: RigRLegAnkle
+  - first:
+      4: 400066
+    second: RigRLegPlatform
+  - first:
+      4: 400068
+    second: RigSpine1
+  - first:
+      4: 400070
+    second: RigSpine2
+  - first:
+      4: 400072
+    second: TH Sword Placeholder
+  - first:
+      23: 2300000
+    second: TH Sword Placeholder
+  - first:
+      33: 3300000
+    second: TH Sword Placeholder
+  - first:
+      43: 4300000
+    second: Base
+  - first:
+      43: 4300002
+    second: TH Sword Placeholder
+  - first:
+      74: 7400000
+    second: TH Sword Walk With Root Motion
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Base
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -96,15 +260,15 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: RigPelvis
     rigImportErrors: 
     rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Inbetween bone
       rotation in copied configuration does not match rotation in animation file:\n\t'RigSpine1'
       : rotation error = 2.269678 deg\n\t'RigNeck' : rotation error = 3.865939 deg\n"
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
-      improve retargeting quality.\n\t'RigSpine1' is inbetween humanoid transforms
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'RigSpine1' is inbetween humanoid transforms
       and has rotation animation that will be discarded.\n\t'RigNeck' is inbetween
       humanoid transforms and has rotation animation that will be discarded.\n\t'RigRArmPalm'
       has scale animation that will be discarded.\n"
@@ -123,6 +287,7 @@ ModelImporter:
     - serializedVersion: 16
       name: TH Sword Walk With Root Motion
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 35
       wrapMode: 0
@@ -135,7 +300,7 @@ ModelImporter:
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
+      loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
@@ -233,6 +398,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -240,18 +406,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -260,10 +427,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 1
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: RigPelvis
       humanName: Hips
@@ -581,14 +748,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 231d45dba8bff13478d80904318e7bc4,
     type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 2
   additionalBone: 0
   userData: 
   assetBundleName: 

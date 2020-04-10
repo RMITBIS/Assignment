@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Assets Libraries/Toon Environment Pack/Scenes/Terrain Scene.unity
+- path: Assets/Game/Castra Tumultus.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
