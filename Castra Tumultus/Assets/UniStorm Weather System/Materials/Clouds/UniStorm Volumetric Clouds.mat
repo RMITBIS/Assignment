@@ -88,7 +88,7 @@ Material:
     - _uHorizonColorFadeEnd: 0
     - _uHorizonColorFadeStart: 0
     - _uHorizonDarkness: 1.15
-    - _uHorizonFadeEnd: 0.22012797
+    - _uHorizonFadeEnd: 0.22
     - _uHorizonFadeStart: -0.05
     - _uLightningContrast: 0
     - _uMoonAttenuation: 0.08
