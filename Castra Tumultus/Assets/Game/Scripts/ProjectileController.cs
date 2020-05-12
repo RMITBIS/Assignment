@@ -3,6 +3,8 @@
 public class ProjectileController : MonoBehaviour
 {
     public GameObject player;
+    public float damage;
+    
     private void Start()
     {
         Physics.IgnoreCollision(GetComponent<Collider>(), player.GetComponent<Collider>());
@@ -10,6 +12,11 @@ public class ProjectileController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject, 1f);
+        Destroy(gameObject);
+
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            other.gameObject.GetComponent<EnemyController>().onDamage(damage);
+        }
     }
 }
