@@ -34,7 +34,7 @@ public class RigidbodyCharacter : MonoBehaviour
         _inputs = Vector3.zero;
         _inputs.x = Input.GetAxis("Horizontal");
         _inputs.z = Input.GetAxis("Vertical");
-
+        _inputs = Vector3.ClampMagnitude(this._inputs, 1f);
         //walking andimation
 
         if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")
