@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class RigidbodyCharacter : MonoBehaviour
 {
@@ -25,21 +24,13 @@ public class RigidbodyCharacter : MonoBehaviour
 
     void Update()
     {
-        float h = Input.mousePosition.x - Screen.width / 2f;
-        float v = Input.mousePosition.y - Screen.height / 2f;
-
-        float yRotation = (float) Math.Atan2(h, v);
-        Quaternion target = Quaternion.Euler(0, yRotation * 60f, 0);
-
-        transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 10f);
-
         _isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
 
         _inputs = Vector3.zero;
         _inputs.x = Input.GetAxis("Horizontal");
         _inputs.z = Input.GetAxis("Vertical");
         _inputs = Vector3.ClampMagnitude(this._inputs, 1f);
-        //walking andimation
+        //walking animation
 
         if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")
             || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow)

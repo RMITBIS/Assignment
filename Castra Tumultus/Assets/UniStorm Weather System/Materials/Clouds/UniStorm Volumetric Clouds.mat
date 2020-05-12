@@ -51,7 +51,7 @@ Material:
     - CLOUDS_TURBULENCE_SPEED: 47.41
     - EARTH_RADIUS: 6371000
     - _DetailScale: 1
-    - _MaskMoon: 1
+    - _MaskMoon: 0
     - _Seed: -5257
     - _SnowStrength: 0
     - _WetnessStrength: 0
