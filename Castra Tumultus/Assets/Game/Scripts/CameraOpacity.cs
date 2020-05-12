@@ -16,10 +16,7 @@ public class CameraOpacity : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Debug.Log("TEST: "+GameObject.FindGameObjectWithTag("Player"));
-
         player = GameObject.FindGameObjectWithTag("Player");
-        Debug.Log(player);
 
         shaderDifuse = Shader.Find("Diffuse");
         shaderTransparent = Shader.Find("Transparent/Diffuse");
