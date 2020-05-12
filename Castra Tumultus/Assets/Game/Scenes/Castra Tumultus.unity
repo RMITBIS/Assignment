@@ -6396,6 +6396,30 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 404666, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7024188
+      objectReference: {fileID: 0}
+    - target: {fileID: 404666, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0047310037
+      objectReference: {fileID: 0}
+    - target: {fileID: 430652, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0047308337
+      objectReference: {fileID: 0}
+    - target: {fileID: 430652, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7024188
+      objectReference: {fileID: 0}
+    - target: {fileID: 435566, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.010663518
+      objectReference: {fileID: 0}
+    - target: {fileID: 435566, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999161
+      objectReference: {fileID: 0}
     - target: {fileID: 463106, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 498.1
@@ -6442,8 +6466,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9508314, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
       propertyPath: m_ApplyRootMotion
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9508314, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b28a5814760ae474880bf98404639623, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 946c944d5332429478df0743a46cb4b3, type: 3}
 --- !u!1001 &1715545494
@@ -6602,7 +6630,7 @@ MonoBehaviour:
   StartingMinute: 0
   StartingHour: 17
   Minute: 0
-  Hour: 22
+  Hour: 9
   Day: 21
   Month: 10
   Year: 2018
