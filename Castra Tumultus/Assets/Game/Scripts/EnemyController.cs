@@ -16,8 +16,11 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        NavMeshAgent agent = GetComponent<NavMeshAgent>();
-        agent.destination = goal.position; 
+        if (CompareTag("Enemy"))
+        {
+            NavMeshAgent agent = GetComponent<NavMeshAgent>();
+            agent.destination = goal.position;
+        }
     }
 
     public void onDamage(float damage)

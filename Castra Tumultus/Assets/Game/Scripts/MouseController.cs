@@ -7,7 +7,7 @@ public class MouseController : MonoBehaviour
     public int projectileSpeed;
     public float projectileCooldown;
     public float despawnTime;
-
+    
     private Rigidbody _body;
     private float cooldown;
 
@@ -22,7 +22,7 @@ public class MouseController : MonoBehaviour
         float v = Input.mousePosition.y - Screen.height / 2f;
 
         float yRotation = (float) Math.Atan2(h, v);
-        Quaternion modelRot = Quaternion.Euler(0, yRotation * 60f, 0);
+        Quaternion modelRot = Quaternion.Euler(0, yRotation * 60, 0);
 
         transform.rotation = modelRot;
 
@@ -42,9 +42,9 @@ public class MouseController : MonoBehaviour
             Vector3 bulletPos = new Vector3(position.x, 0.35f, position.z);
             Quaternion bulletRot = Quaternion.Euler(-90, yRotation * 60f, 0);
 
-            GameObject ah = Instantiate(projectile, bulletPos, bulletRot);
-            ah.GetComponent<Rigidbody>().AddForce(transform.forward * projectileSpeed);
-            Destroy(ah, despawnTime);
+            GameObject obj = Instantiate(projectile, bulletPos, bulletRot);
+            obj.GetComponent<Rigidbody>().AddForce(transform.forward * projectileSpeed);
+            Destroy(obj, despawnTime);
         }
     }
 }
