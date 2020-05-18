@@ -5,9 +5,9 @@ using System.Collections.Generic;
 public class CameraOpacity : MonoBehaviour
 {
 
-    private GameObject player;
-    private Shader shaderDifuse;
-    private Shader shaderTransparent;
+    GameObject player;
+    Shader shaderDifuse;
+    Shader shaderTransparent;
     public float targetAlpha;
     public float time;
     public GameObject o;
@@ -16,11 +16,7 @@ public class CameraOpacity : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Debug.Log("TEST: "+GameObject.FindGameObjectWithTag("Player"));
-
         player = GameObject.FindGameObjectWithTag("Player");
-        Debug.Log(player);
-
         shaderDifuse = Shader.Find("Diffuse");
         shaderTransparent = Shader.Find("Transparent/Diffuse");
     }
@@ -83,10 +79,7 @@ public class CameraOpacity : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        if (player != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawRay(transform.position, player.transform.position - transform.position);
-        }
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(transform.position, player.transform.position - transform.position);
     }
 }
