@@ -7,12 +7,14 @@ public class MouseController : MonoBehaviour
     public int projectileSpeed;
     public float projectileCooldown;
     public float despawnTime;
-    
+    private Health _health;
+
     private Rigidbody _body;
     private float cooldown;
 
     void Start()
     {
+        _health = GetComponent<Health>();
         _body = GetComponent<Rigidbody>();
     }
 
@@ -24,7 +26,10 @@ public class MouseController : MonoBehaviour
         float yRotation = (float) Math.Atan2(h, v);
         Quaternion modelRot = Quaternion.Euler(0, yRotation * 60, 0);
 
-        transform.rotation = modelRot;
+        if (_health.getCurrentHealth() > 0)
+        {
+            transform.rotation = modelRot;
+        }
 
         if (cooldown > 0)
         {
@@ -35,7 +40,7 @@ public class MouseController : MonoBehaviour
             cooldown = 0;
         }
 
-        if (Input.GetMouseButtonDown(0) && cooldown <= 0)
+        if (Input.GetMouseButtonDown(0) && cooldown <= 0 && _health.getCurrentHealth() > 0)
         {
             cooldown += projectileCooldown;
             Vector3 position = _body.position;
