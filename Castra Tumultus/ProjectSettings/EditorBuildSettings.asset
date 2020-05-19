@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Game/Menu.unity
+    guid: 5a8e7cfa7c9f58d44bd9d41dcd27fb73
+  - enabled: 1
     path: Assets/Game/Scenes/Castra Tumultus.unity
     guid: d0e37ea50269e46f28524bbec10ac0c5
   m_configObjects: {}
