@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fire
+<<<<<<< HEAD
+=======
+  - Enemy
+  - Spawner
+>>>>>>> 8b7863cdcc05075304163c88ed217ed4ad06920c
   layers:
   - Default
   - TransparentFX
