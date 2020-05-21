@@ -17,7 +17,6 @@ public class HealthBar : MonoBehaviour
     {
         GetComponentInParent<Health>().OnHealthPctChanged += HandleHealthChanged;
         rotation = transform.rotation;
-
     }
 
     private void HandleHealthChanged(float pct)
