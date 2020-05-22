@@ -11,8 +11,12 @@ public class MouseController : MonoBehaviour
     private Rigidbody _body;
     private float cooldown;
 
+    //added to lock controls once dead
+    private Health _health;
+
     void Start()
     {
+        _health = GetComponent<Health>();
         _body = GetComponent<Rigidbody>();
     }
 
@@ -24,7 +28,11 @@ public class MouseController : MonoBehaviour
         float yRotation = (float) Math.Atan2(h, v);
         Quaternion modelRot = Quaternion.Euler(0, yRotation * 60, 0);
 
-        transform.rotation = modelRot;
+        //transform wrapped in an if statement as to not allow movement if helth is 0
+        if (_health.getCurrentHealth() > 0)
+        {
+            transform.rotation = modelRot;
+        }
 
         if (cooldown > 0)
         {
@@ -35,7 +43,8 @@ public class MouseController : MonoBehaviour
             cooldown = 0;
         }
 
-        if (Input.GetMouseButtonDown(0) && cooldown <= 0)
+        //extra conditon added for checking health is greater than zero befor allowing movemnet
+        if (Input.GetMouseButtonDown(0) && cooldown <= 0 && _health.getCurrentHealth() > 0)
         {
             cooldown += projectileCooldown;
             Vector3 position = _body.position;

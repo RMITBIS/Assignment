@@ -3694,7 +3694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473192, guid: 6f4941c4cd79a404eb492e81f15666c7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 501.48
+      value: 571.8
       objectReference: {fileID: 0}
     - target: {fileID: 473192, guid: 6f4941c4cd79a404eb492e81f15666c7, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9622,6 +9622,18 @@ MonoBehaviour:
   projectileSpeed: 500
   projectileCooldown: 0.25
   despawnTime: 5
+--- !u!114 &1800715777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800715768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c544f13835ca4fbead0097155004b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1813536939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4801782229395192, guid: 0a1ab6b7abd4cbf40aa23783d24b32cf,
